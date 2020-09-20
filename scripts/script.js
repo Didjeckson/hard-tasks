@@ -29,3 +29,5 @@ console.log('умножнение цифр: ' + res);
 
 console.log('exponention number on 3: ' + res ** 3);
 /// странно в статье написано, что в es6 ** такое воздевение есть, а jshint пишет в es7, кому верить, можешь ответить?
+let exponention = (res ** 3);
+document.write(String(exponention).slice(0, 2));
