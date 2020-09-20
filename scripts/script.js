@@ -8,6 +8,7 @@ function text(str) {
         text(str);
     }
 
+    str.trim();
 
 
 }
